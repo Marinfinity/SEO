@@ -1,0 +1,56 @@
+  body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #f4f4f4;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .gallery,
+        .team,
+        .products {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Importante para el responsive */
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .sidebar {
+            float: right;
+            width: 25%;
+            background: #fafafa;
+            padding: 10px;
+        }
+
+        .main-content {
+            float: left;
+            width: 70%;
+        }
+
+        .clearfix::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
